@@ -10,7 +10,7 @@ class Unixtime extends Component {
         return (
             <div>
             <h1>{ Math.round(this.state.date.getTime() / 1000) }</h1>
-            <p>{ this.state.date.toString() }</p>
+            <p>({ this.state.date.toString() })</p>
             </div>
         );
     }
